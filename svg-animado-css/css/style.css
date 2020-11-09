@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-emphasis:center;
+    background: #ccc;
+}
+
+#Rueda-trasera, #Rueda-delantera {
+    animation: rueda 2s linear infinite;
+    transform-origin:center;
+    transform-box:fill-box;
+  }
+
+  @keyframes rueda {
+    from {
+      transform: rotatez(0deg);
+    }
+    to {
+      transform: rotatez(360deg);
+    }
+  }
+  
+  
+  
